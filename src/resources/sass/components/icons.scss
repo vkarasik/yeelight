@@ -1,0 +1,117 @@
+.icon {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+
+    &.on {
+        background: url('../img/ceilamp-icon.png') no-repeat 0px -99px;
+    }
+
+    &.off {
+        background: url('../img/ceilamp-icon.png') no-repeat -99px -99px;
+    }
+
+    &.light {
+        background: url('../img/ceilamp-icon.png') no-repeat -199px -99px;
+    }
+
+    &.night {
+        background: url('../img/ceilamp-icon.png') no-repeat -299px -99px;
+    }
+
+    &.bright {
+        background: url('../img/ceilamp-icon.png') no-repeat -399px -99px;
+    }
+
+    &.stepless {
+        background: url('../img/ceilamp-icon.png') no-repeat 0px 0px;
+    }
+
+    &.led {
+        background: url('../img/ceilamp-icon.png') no-repeat -99px 0px;
+    }
+
+    &.moon {
+        background: url('../img/ceilamp-icon.png') no-repeat -199px 0px;
+    }
+
+    &.wifi {
+        background: url('../img/ceilamp-icon.png') no-repeat -299px 0px;
+    }
+
+    &.dust {
+        background: url('../img/ceilamp-icon.png') no-repeat -399px 0px;
+    }
+
+    &.home {
+        background: url('../img/ceilamp-icon.png') no-repeat -499px 0px;
+    }
+
+    &.child {
+        background: url('../img/ceilamp-icon.png') no-repeat -590px 0px;
+    }
+
+    &.inclamp {
+        background: url('../img/ceilamp-icon.png') no-repeat -299px -183px;
+    }
+
+    &.sunriselight {
+        background: url('../img/ceilamp-icon.png') no-repeat -199px -183px;
+    }
+
+    &.sunlight {
+        background: url('../img/ceilamp-icon.png') no-repeat -99px -183px;
+    }
+
+    &.fluorlight {
+        background: url('../img/ceilamp-icon.png') no-repeat 1px -183px;
+    }
+
+    &.appcontrol {
+        background: url('../img/ceilamp-icon.png') no-repeat -399px -183px;
+    }
+
+    &.swichcontrol {
+        background: url('../img/ceilamp-icon.png') no-repeat -499px -183px;
+    }
+
+    &.remotecontrol {
+        background: url('../img/ceilamp-icon.png') no-repeat -499px -99px;
+    }
+
+    &.voicecontrol {
+        background: url('../img/ceilamp-icon.png') no-repeat -590px -99px;
+    }
+
+    &_whitebalance {
+        background: url('../img/products/beside-icons.png') no-repeat 0px 0px;
+    }
+
+    &_brightness {
+        background: url('../img/products/beside-icons.png') no-repeat -122px 0px;
+    }
+
+    &_colours {
+        background: url('../img/products/beside-icons.png') no-repeat -244px 0px;
+    }
+
+    &_timer {
+        background: url('../img/products/beside-icons.png') no-repeat -366px 0px;
+    }
+
+    &.singleclick {
+        background: url('../img/table-icons.png') no-repeat 0px 0px;
+    }
+
+    &.twist {
+        background: url('../img/table-icons.png') no-repeat -168px 0px;
+    }
+
+    &.presstwist {
+        background: url('../img/table-icons.png') no-repeat -336px 0px;
+    }
+
+    &.doubleclick {
+        background: url('../img/table-icons.png') no-repeat -504px 0px;
+    }
+}

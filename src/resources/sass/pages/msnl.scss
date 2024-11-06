@@ -1,0 +1,204 @@
+.msnl {
+    margin-top: 75px;
+
+    img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    &__b1 {
+        margin: 0;
+        padding: 200px 0;
+        background-image: url('../img/products/msnl_01.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+
+        @media(max-width: 768px) {
+            background-position: 60% 0;
+        }
+
+        .text {
+            padding: 0 0 0 10%;
+
+            @media(max-width: 768px) {
+                padding: 0 5%;
+                text-align: center;
+            }
+        }
+    }
+
+    &__b2 {
+        margin: 0;
+        padding: 70px 0;
+        background: #FDFDFD;
+
+        .text {
+            padding: 0 10%;
+
+            @media(max-width: 768px) {
+                padding: 0 5%;
+            }
+        }
+    }
+
+    &__b3 {
+        margin: 0;
+        padding: 200px 0;
+        background-image: url('../img/products/msnl_03.jpg');
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: cover;
+
+        @media(max-width: 768px) {
+            padding: 100px 0;
+            background-position: 78% 50%;
+        }
+
+        .text {
+            padding: 0 10% 0;
+
+            @media(max-width: 768px) {
+                padding: 0 5% 0;
+
+            }
+        }
+    }
+
+    &__b4 {
+        margin: 0;
+        padding: 200px 0;
+        background-image: url('../img/products/msnl_04.jpg');
+        background-repeat: no-repeat;
+        background-position: center left;
+        background-size: cover;
+
+        @media(max-width: 768px) {
+            padding: 100px 0;
+            background-position: 20% 0;
+        }
+
+        .text {
+            padding: 0 10% 0;
+
+            @media(max-width: 768px) {
+                padding: 0 5% 0;
+            }
+        }
+    }
+
+    &__b5 {
+        margin: 0;
+        padding: 70px 0 10px;
+        background: #181818;
+
+        .text {
+            padding: 0 10% 0;
+
+            @media(max-width: 768px) {
+                padding: 10% 5% 0;
+                text-align: center;
+            }
+        }
+    }
+
+    &__b6 {
+        margin: 0;
+        padding: 70px 0 0;
+        background: #EAE5E2;
+
+        .text {
+            padding: 0 10%;
+
+            @media(max-width: 768px) {
+                padding: 10% 5% 0;
+            }
+        }
+    }
+
+    &__b7 {
+        margin: 0;
+        padding: 200px 0;
+        background-image: url('../img/products/msnl_07.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        @media(max-width: 768px) {
+            padding: 70px 0 150px;
+            background-position: 35% center;
+        }
+
+        .text {
+            padding: 0 10%;
+
+            @media(max-width: 768px) {
+                padding: 0 5%;
+            }
+        }
+    }
+
+    &__b8 {
+        margin: 0;
+        padding: 100px 0 200px;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-image: url('../img/products/msnl_08.jpg');
+        background-size: cover;
+
+        @media(max-width: 768px) {
+            padding: 100px 0 150px;
+            background-position: 25% center;
+        }
+
+        .text {
+            padding: 0 10%;
+
+            @media(max-width: 768px) {
+                padding: 0 5%;
+            }
+        }
+    }
+
+    &__b9 {
+        margin: 0;
+        padding: 70px 0;
+        background: #fdfdfd;
+
+        .text {
+            padding: 0 10%;
+
+            @media(max-width: 768px) {
+                padding: 0 5%;
+            }
+        }
+    }
+
+    &__b10 {
+        margin: 0;
+        padding: 200px 0;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-image: url('../img/products/msnl_10.jpg');
+        background-size: cover;
+
+        @media(max-width: 768px) {
+            padding: 100px 0;
+            background-position: 70% center;
+        }
+
+        .text {
+            padding: 0 10%;
+
+            @media(max-width: 768px) {
+                padding: 0 5%;
+            }
+        }
+    }
+
+    &__b11 {
+        padding: 50px 0;
+        margin: 0;
+        background: #ffffff;
+    }
+}

@@ -1,0 +1,25 @@
+@use 'sass:color';
+
+.button {
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 160%;
+    line-height: 1.6;
+
+    &_main {
+        color: $text-light;
+        background: $brand-color;
+
+        &:hover {
+            background: color.adjust($brand-color, $lightness: -5%);
+        }
+    }
+}
+
+.play {
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+}

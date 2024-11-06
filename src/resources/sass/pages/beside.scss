@@ -1,0 +1,196 @@
+.beside {
+    padding-top: 75px;
+
+    &__b1 {
+        margin: 0;
+        padding: 200px 0;
+        background: url('../img/products/beside_01.jpg') no-repeat center center;
+        background-size: cover;
+
+        @media(max-width: 768px) {
+            padding: 150px 0;
+        }
+
+        .text {
+            padding: 0 0 0 10%;
+            color: $text-light;
+
+            @media(max-width: 768px) {
+                padding: 10% 0 0 10%;
+            }
+        }
+    }
+
+    &__b2 {
+        position: relative;
+        margin: 0 0 -2px;
+        padding: 0;
+        overflow: hidden;
+
+        video {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .text {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            width: 40%;
+            color: $text-light;
+
+            @media(max-width: 768px) {
+                position: relative;
+                top: 0;
+                left: 0;
+                width: 100%;
+                padding: 10% 0 0 5%;
+                color: $text-dark;
+            }
+        }
+    }
+
+    &__b3 {
+        margin: 0;
+        padding: 100px 0 350px;
+        background: url('../img/products/beside_02.jpg') no-repeat left center;
+        background-size: cover;
+
+        @media(max-width: 768px) {
+            padding: 150px 0;
+            text-align: center;
+        }
+    }
+
+    &__b4 {
+        margin: 0;
+        padding: 100px 0 350px;
+        background: url('../img/products/beside_03.jpg') no-repeat center center;
+        background-size: cover;
+
+        @media(max-width: 768px) {
+            padding: 150px 0;
+            text-align: center;
+        }
+    }
+
+    &__b5 {
+        margin: 0;
+        padding: 100px 0 350px;
+        background: url('../img/products/beside_04.jpg') no-repeat center center;
+        background-size: cover;
+
+        @media(max-width: 768px) {
+            padding: 150px 0;
+            text-align: center;
+        }
+    }
+
+    &__b6 {
+        margin: 0;
+        padding: 100px 50px 500px;
+        background: url('../img/products/beside_05.jpg') no-repeat top center;
+        background-size: cover;
+
+        @media(max-width: 768px) {
+            padding: 80px 5% 80px 10%;
+        }
+
+        .text {
+            color: $text-dark;
+
+            @media(max-width: 768px) {
+                text-align: left;
+            }
+        }
+    }
+
+    &__b7 {
+        margin: 0;
+        padding: 100px 0 500px;
+        background: url('../img/products/beside_11.jpg') no-repeat top center;
+        background-size: cover;
+
+        @media(max-width: 768px) {
+            padding: 80px 0;
+            background: url('../img/products/beside_12.jpg') no-repeat top center;
+        }
+
+        .text {
+            padding: 0 0 0 10%;
+
+            @media(max-width: 575px) {
+                text-align: left;
+                color: $text-light;
+            }
+        }
+    }
+
+    &__b8 {
+        margin: 0;
+        padding: 150px 0 250px;
+        background: url('../img/products/beside_07.jpg') no-repeat top center;
+        background-size: cover;
+
+        @media(max-width: 768px) {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .text {
+            padding: 0 10%;
+            margin-bottom: 50px;
+
+            @media(max-width: 768px) {
+                padding: 0;
+                text-align: center;
+            }
+        }
+
+        .functions {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            column-gap: 5%;
+            padding: 0 10%;
+
+            li {
+                width: 20%;
+
+                @media(max-width: 768px) {
+                    width: 46%;
+                }
+            }
+        }
+    }
+
+    &__b9 {
+        margin: 0;
+        padding: 100px 0 0;
+        background: #F9F9F9;
+
+        @media(max-width: 768px) {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .text {
+            padding: 20% 10% 0 0;
+
+            @media(max-width: 768px) {
+                padding: 10% 0 0;
+                text-align: center;
+            }
+        }
+    }
+
+    &__b10 {
+        margin: 0;
+        padding: 50px 0;
+        background: #ffffff;
+    }
+}

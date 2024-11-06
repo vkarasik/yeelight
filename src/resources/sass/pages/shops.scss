@@ -1,0 +1,38 @@
+.shops {
+    margin-top: 50px;
+    padding: 10%;
+    background: #ffffff;
+
+    p {
+        margin-bottom: 50px;
+    }
+
+    .map {
+        margin: 0;
+        height: 400px;
+    }
+
+    .shops-list {
+        max-height: 400px;
+        margin-bottom: 30px;
+    }
+
+    .shop {
+        h5 {
+            font-size: 160%;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 140%;
+        }
+
+        span {
+            font-size: 120%;
+        }
+
+        .badge {
+            font-size: 120%;
+        }
+    }
+}
